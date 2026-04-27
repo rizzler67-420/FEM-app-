@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Cantilever beam with tip load",
+    "problem_type": "2d_beam",
+    "template": "cantilever_tip_load",
+    "parameters": ["L", "P", "n_elements"]
+  },
+  {
+    "name": "Simply supported beam with central point load",
+    "problem_type": "2d_beam",
+    "template": "simply_supported_center_load",
+    "parameters": ["L", "P", "n_elements"]
+  },
+  {
+    "name": "Simply supported beam with uniformly distributed load",
+    "problem_type": "2d_beam",
+    "template": "simply_supported_udl",
+    "parameters": ["L", "q", "n_elements"]
+  },
+  {
+    "name": "Triangular 2D truss",
+    "problem_type": "2d_truss",
+    "template": "triangular_truss",
+    "parameters": ["span", "height", "P"]
+  },
+  {
+    "name": "Warren truss",
+    "problem_type": "2d_truss",
+    "template": "warren_truss",
+    "parameters": ["span", "height", "n_panels", "P"]
+  },
+  {
+    "name": "Portal frame with horizontal load",
+    "problem_type": "2d_frame",
+    "template": "portal_frame_horizontal",
+    "parameters": ["width", "height", "P"]
+  },
+  {
+    "name": "Portal frame with vertical load",
+    "problem_type": "2d_frame",
+    "template": "portal_frame_vertical",
+    "parameters": ["width", "height", "P"]
+  },
+  {
+    "name": "Simple rectangular plate (placeholder)",
+    "problem_type": "plate",
+    "template": "simple_rectangular_plate",
+    "parameters": ["length", "width", "thickness", "q"]
+  }
+]

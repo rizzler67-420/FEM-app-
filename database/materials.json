@@ -1,0 +1,5 @@
+[
+  {"name": "Steel S275", "elastic_modulus": 2.1e11, "density": 7850},
+  {"name": "Aluminum 6061", "elastic_modulus": 6.9e10, "density": 2700},
+  {"name": "Concrete C30", "elastic_modulus": 3.0e10, "density": 2500}
+]

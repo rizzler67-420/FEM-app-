@@ -1,0 +1,5 @@
+[
+  {"name": "Small I-section", "area": 0.005, "inertia": 8.0e-6},
+  {"name": "Medium I-section", "area": 0.010, "inertia": 3.2e-5},
+  {"name": "Tubular CHS", "area": 0.003, "inertia": 4.0e-6}
+]
